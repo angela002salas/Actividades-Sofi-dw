@@ -5,11 +5,11 @@
 }
 :root {
   --vh: 1vh;
-  --gold: #BF889C;
-  --text-light: #AD2456;
+  --gold: #403A0A;
+  --text-light: #4F363B;
   --text-muted: #AD2456;
-  --bg-dark: #AD2456;
-  --bg-mid: #BF889C;
+  --bg-dark: #4F363B;
+  --bg-mid: #D1BD13;
   --bg-light: #E0CAD2;
 }
 
