@@ -12,10 +12,8 @@
 se adapte a diferentes dispositivos-->
 <meta charset="UTF-8"> <!-- Este metadato es para los caracteres especiales-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
   <meta name="description" content="Free Web tutorials">
   <meta name="author" content="Sofia Salas">
-
   <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
   <link rel="stylesheet" href="styles.css">
 
@@ -38,7 +36,7 @@ se adapte a diferentes dispositivos-->
    <!-- MENSAJE PÁGINA 1 -->
     <div class="page" id="pagina1">
     <div class="photo-circle">
-      <img class="photo-img" loading="lazy" src="/foto2.jpg" alt="regalos">
+      <img class="photo-img" loading="lazy" src="foto2.jpg" alt="regalos">
     </div>
     <p class="msg-text">¡En esta época te deseo mucha felicidad! ❤️‍🔥</p>
     <button id="btn-next-1" class="btn-secondary">
@@ -51,15 +49,13 @@ se adapte a diferentes dispositivos-->
     <h2 class="gallery-title"> NO OLVIDEMOS LO REALMENTE IMPORTANTE</h2>
     <div class="gallery-grid">
      <div class="gallery-item gold-border">
-      <img class="gallery-img" loading="lazy" src="/imagen 3 2.jpg" alt="ilustración familia">
+      <img class="gallery-img" loading="lazy" src="imagen 3 2.jpg" alt="ilustración familia">
      </div>
      <div class="gallery-item gold-border">
-      <img class="gallery-img" loading="lazy" src="/imagen2 2.jpg" alt="ilustración Belén">
-      
-      <ia.jpg" alt="familia">
+      <img class="gallery-img" loading="lazy" src="imagen1.jpg" alt="ilustración Belén">
      </div>
      <div class="gallery-item gold-border">
-      <img class="gallery-img" loading="lazy" src="/imagen3.jpg" alt="ilustración familia">
+      <img class="gallery-img" loading="lazy" src="imagen2.jpg" alt="ilustración familia">
      </div>
     </div>
   
@@ -68,8 +64,50 @@ No son los regalos ni la cena, lo que hace esta fecha especial, es recordar que 
 Entre abrazos, rezos y alegría, damos gracias por un año más, porque con Dios en nuestra familia, la Navidad siempre será especial.
 Que nunca olvidemos que el verdadero regalo de Navidad es el nacimiento de Jesús y el amor de Dios en nuestros hogares. 🎊</p>
    </div>
+   <!-- BOTÓN PARA REVELAR UN MENSAJE-->
+     <div class="page" id="pagina3">
+    <div class="float-container float">
+     <span class="heart-emoji">🎊</span>
+    </div>
+    <p class="msg-text">Descubre que mensaje hay para ti</p>
+    <button id="btn-reveal" class="btn-309ebc">
+      <span class="btn-text">Descubre aqui</span>
+    </button>
+   </div>
+
+   <!-- MENSAJE FINAL-->
+ <div class="page" id="pagina4">
+    <div id="final-card" class="final-card">
+     <audio id="navidad-audio" src="Audio navidad sofi salas.m4a"></audio>
+     <div class="photo-circle gold-border final-photo">
+      <img class="photo-img" loading="lazy" src="JOSE Y MARÍA.jpg" alt="José y María">
+     </div>
+     <h2 class="final-title">¡Felices fiestas!</h2>
+     <p class="final-msg">Que esta navidad traiga paz y amor a tu hogar!</p>
+     <button id="btn-audio-ebc" class="btn-heart">
+      <span id="ebc-audio-btn-text">💗</span>
+     </button>
+    </div>
+    <div id="confetti-container" class="confetti-container">
+      
+    </div>
+   </div>
+
+   <!-- NAVEGACIÓN DE LA TARJETA -->
+     <nav class="nav-container" aria-label="Navegación de páginas">
+    <button id="btn-prev" class="btn-nav" aria-label="Anterior">
+      <i data-lucide="chevron-left" class="icon-nav"></i>
+    </button>
+    <div id="dots" class="dots-container"></div>
+    <button id="btn-next" class="btn-nav" aria-label="Siguiente">
+      <i data-lucide="chevron-right" class="icon-nav"></i>
+    </button>
+   </nav>
+  </div>
+  
+
+
 <script src="script.js"></script>
 
 </body>
-
 </html>
